@@ -76,7 +76,7 @@
     transform: translateY(-2px);
     box-shadow: 0 6px 10px 0 rgba(15, 1, 71, 0.2), 0 8px 22px 0 rgba(57, 39, 64, 0.19);
 }
-@media (max-width: 700px) {
+@media (max-width: 770px) {
     html{
         background-color:antiquewhite ;
     }
@@ -84,16 +84,18 @@
       width: 95%;
       min-height: auto;
       height: auto;
+      margin-left: -16px;
     }
 
     #text {
+      font-family: monospace;
       font-size: 18px;
       background-color:rgb(90 79 64 / 23%);
       box-shadow: 0 4px 8px 0 rgb(215 0 0 / 20%), 0 6px 20px 0 rgb(126 0 0 / 19%);
     }
 
     #author {
-      font-size: 16px;
+      font-size: 15px;
     }
 
     #new-quote {
