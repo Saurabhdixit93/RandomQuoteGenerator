@@ -1,0 +1,143 @@
+ #quote-box {
+    width: 80%;
+    height: auto;
+    min-height: 300px;
+    background-color: #fff;
+    padding: 40px;
+    text-align: center;
+    margin: 40px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  #text {
+    font-size: 22px;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    color: #333;
+  }
+
+  #author {
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    text-align: right;
+    color: #333;
+  }
+
+  #buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  #whatsapp-quote {
+    background-color: #128C7E;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+
+  #whatsapp-quote i {
+    padding-right: 10px;
+  }
+
+  #whatsapp-quote:hover {
+    background-color: #049cdb;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  #new-quote {
+    background-color: rgb(4, 51, 102);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+    #new-quote:hover {
+    background-color: rgb(100, 100, 100);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px 0 rgba(15, 1, 71, 0.2), 0 8px 22px 0 rgba(57, 39, 64, 0.19);
+}
+@media (max-width: 700px) {
+    html{
+        background-color:antiquewhite ;
+    }
+    #quote-box {
+      width: 95%;
+      min-height: auto;
+      height: auto;
+    }
+
+    #text {
+      font-size: 18px;
+      background-color:rgb(90 79 64 / 23%);
+      box-shadow: 0 4px 8px 0 rgb(215 0 0 / 20%), 0 6px 20px 0 rgb(126 0 0 / 19%);
+    }
+
+    #author {
+      font-size: 16px;
+    }
+
+    #new-quote {
+      font-size: 16px;
+    }
+  }
+  .footer.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  font-size: 24px;
+}
+
+.footer.contact a {
+  margin: 0 10px;
+  color: #333;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer.contact a:hover {
+  color: #0077B5;
+}
+
+.credit {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 20px;
+  color: #333;
+}
+
+.credit .extra {
+  font-weight: bold;
+  color: #0077B5;
+}
+
+@media (max-width: 767px) {
+  .footer.contact {
+    font-size: 20px;
+  }
+  .credit {
+    font-size: 12px;
+  }
+  #buttons{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+}
